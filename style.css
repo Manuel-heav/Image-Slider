@@ -1,0 +1,38 @@
+*{
+	box-sizing: border-box;
+}
+#img{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+
+}
+#singleImg{
+	border: 10px solid #95b8d1;
+	border-radius: 10px;
+}
+.arrow {
+  border: solid #fff;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 6px;
+
+}
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+button{
+	background:#95b8d1;
+	border: none;
+	padding: 6px;
+	border-radius: 3px;
+}
+button:hover{
+	background: black;
+}
